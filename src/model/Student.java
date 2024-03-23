@@ -5,7 +5,7 @@ public class Student {
 	int roll;
 	public Student() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 	public Student(int roll, String name) {
 		super();
@@ -32,5 +32,8 @@ public class Student {
 		this.name = name;
 	}
 	String name;
+	public void displayInfo() {
+		System.out.println("Student [roll=" + roll + ", name=" + name + "]");
+	}
 
 }
